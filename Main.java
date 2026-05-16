@@ -1,28 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        int a = 7;
-        int b = 9;
+        int x = 11;
+        double n1 = 8.5332423;
+        boolean b1 = true;
+        char c1 = 'C';
+        String name = "Mahadev";
 
-        // Arithmetic Operators
-        System.out.println("Addition: " + (a + b));
-        System.out.println("Subtraction: " + (a - b));
-        System.out.println("Multiplication: " + (a * b));
-        System.out.println("Division: " + (a / b));
-        System.out.println("Modulus: " + (a % b));
-
-        // Relational Operators
-        System.out.println("a > b : " + (a > b));
-        System.out.println("a < b : " + (a < b));
-        System.out.println("a == b : " + (a == b));
-        System.out.println("a != b : " + (a != b));
-
-        // Logical Operators
-        boolean x = true;
-        boolean y = false;
-
-        System.out.println("x && y : " + (x && y));
-        System.out.println("x || y : " + (x || y));
-        System.out.println("!x : " + (!x));
+        System.out.println("Integer value: " + x);
+        System.out.println("Double value: " + n1);
+        System.out.println("Boolean value: " + b1);
+        System.out.println("Character value: " + c1);
+        System.out.println("String value: " + name);
     }
 }
