@@ -1,20 +1,28 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        int a = 7;
+        int b = 9;
 
-        System.out.print("Enter first number: ");
-        int num1 = input.nextInt();
+        // Arithmetic Operators
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
+        System.out.println("Division: " + (a / b));
+        System.out.println("Modulus: " + (a % b));
 
-        System.out.print("Enter second number: ");
-        int num2 = input.nextInt();
+        // Relational Operators
+        System.out.println("a > b : " + (a > b));
+        System.out.println("a < b : " + (a < b));
+        System.out.println("a == b : " + (a == b));
+        System.out.println("a != b : " + (a != b));
 
-        int sum = num1 + num2;
+        // Logical Operators
+        boolean x = true;
+        boolean y = false;
 
-        System.out.println("Sum = " + sum);
-
-        input.close();
+        System.out.println("x && y : " + (x && y));
+        System.out.println("x || y : " + (x || y));
+        System.out.println("!x : " + (!x));
     }
 }
